@@ -1,11 +1,125 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rinterio</title>
+    <title>Assignment-3</title>
+
+    <!-- font awesome cdn -->
+    <script src="https://kit.fontawesome.com/8f0afd7f7c.js" crossorigin="anonymous"></script>
+
+    <!-- Google font cdn -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+
+    <!-- DaisyUI + Tailwind CSS cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+
+    <style>
+        .manrope-uniquifier {
+            font-family: "Manrope", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: weight;
+            font-style: normal;
+        }
+    </style>
+    <!-- Tailwind code -->
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: '#da373d',
+              'text-praimary': '#212121',
+              'praimary-color': '#ABEF5F',
+              'secondary-color': '#ABEF5F80',
+            }
+          }
+        }
+      }
+    </script>
+
 </head>
-<body>
+<body class="manrope-uniquifier py-7 ">
+  <!-- header starts here -->
+    <header class="container mx-auto lg:px-10">
+      <!-- nav starts here -->
+        <nav class="container mx-auto">
+            <div class="navbar ">
+              <!-- menu-starts here -->
+                <div class="navbar-start">
+                  <a href="#"><i class="fa-solid fa-arrow-right -rotate-45 rounded-full bg-praimary-color p-2 mr-2"></i></a>
+                  <a class="text-xl font-extrabold">Rinterio</a>
+                </div>
+                <!-- menu-center here-->
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1 text-base">
+                    <li class="font-extrabold"><a>Home</a></li>
+                    <li class="font-normal"><a>Services</a></li>
+                    <li class="font-normal"><a>Portfolio</a></li>
+                    <li class="font-normal"><a>Blogs</a></li>
+                    <li class="font-normal"><a>Contact Us</a></li>
+                  </ul>
+                </div>
+                <!-- navbar-ends here -->
+                
+                <div class="navbar-end">
+                  <div class="hidden lg:block">
+                    <a href="#"><i class="fa-solid fa-magnifying-glass pr-2"></i></a>
+                    <a href="#"><i class="fa-solid fa-cart-shopping pr-2 "></i></a>
+                    <a class="py-2 px-4 bg-praimary-color rounded-3xl font-extrabold text-xl">Book Consult <i class="fa-solid fa-arrow-right -rotate-45 rounded-full bg-black text-white p-2 ml-2"></i></a>
+                  </div>
+                  <div tabindex="0" role="button" class="btn btn-circle lg:hidden">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="h-5 w-5"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor">
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+        </nav>
+        <!-- nav ends here -->
+    </header>
+  <!-- header ends here -->
+  <!-- header ends here -->
+  <!-- header ends here -->
+  <!-- header ends here -->
+
+
+    <main>
+      <!-- banner starts here -->
+       <div class="container mx-auto lg:px-10 text-center pb-2 lg:pb-24">
+        <!-- banner img here -->
+         <div class="w-3/6 mx-auto">
+          <img src="./assets/banner.png" alt="">
+         </div>
+         <!-- banner text here -->
+          <div class="p-2">
+            <h1 class="text-5xl lg:text-6xl font-extrabold py-7 text-praimary">A barn house of this design has a striking appearance</h1>
+            <p class="text-current font-medium text-base px-16 lg:px-28 pb-9">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
+            <a class="py-2 px-32 lg:px-4 bg-secondary-color rounded-3xl font-bold text-xl">View Details <i class="fa-solid fa-arrow-right -rotate-45 rounded-full bg-praimary-color p-2 ml-2"></i></a>
+          </div>
+       </div>
+      <!-- banner ends here -->
+
+      <!-- about us starts here -->
+       
+      <!-- about us ends here -->
+    </main>
+    <footer>
+
+    </footer>
     
 </body>
 </html>
